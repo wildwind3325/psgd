@@ -1,6 +1,6 @@
 import './util/enhance';
 import './main.css';
 
-import GaleGame from './game';
+import GaleGame from './gale';
 
 window._game = new GaleGame();

@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 
-import MainScene from './scene/Main';
+import MainScene from './scene/main';
 
 class GaleGame extends Phaser.Game {
   constructor() {
