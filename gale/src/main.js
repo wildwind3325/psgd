@@ -1,6 +1,7 @@
+import Phaser from 'phaser';
+
+import config from './config';
 import './util/enhance';
 import './main.css';
 
-import GaleGame from './gale';
-
-window._game = new GaleGame();
+window._game = new Phaser.Game(config);
